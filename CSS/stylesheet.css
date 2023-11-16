@@ -1,6 +1,14 @@
+body{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+}
 .form {
   background-color: #fff;
-  display: block;
+  display: grid;
+  justify-content: center;
   padding: 1rem;
   max-width: 350px;
   border-radius: 0.5rem;
